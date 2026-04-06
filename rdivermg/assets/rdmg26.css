@@ -125,7 +125,7 @@ svg {
   margin:0 auto;
   width:300px;
   height:430px;
-  background-image:url(../img/mf.gif); 
+  background:url(../img/mf.gif); 
 }
 	
 @keyframes flicker {
