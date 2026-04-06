@@ -87,7 +87,7 @@ document.addEventListener('keydown', function(e) {
 
 	
 document.getElementById("BG007").onclick = () => {
-    window.open("https://www.deviantart.com/robf-art/gallery/71228449", "_blank");
+    window.open("https://www.artgram.co/rob/collections", "_blank");
 };
 
 document.getElementById("BS008").onclick = () => {
