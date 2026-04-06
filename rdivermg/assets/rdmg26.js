@@ -7,11 +7,9 @@ const bars = volumeBar.querySelectorAll('.bar');
 
 let isPlaying = false;
 
-
 const initialVolumeOnPlay = 0.5; 
 radio.volume = 0; 
 updateVolumeBars();
-
 
 function updateVolumeBars() {
   const level = Math.round(radio.volume * (bars.length - 1));
@@ -25,7 +23,6 @@ function updateVolumeBars() {
     }
   });
 }
-
 
 playPauseBtn.addEventListener('click', () => {
   if (isPlaying) {
@@ -50,7 +47,6 @@ playPauseBtn.addEventListener('click', () => {
   }
 });
 
-
 bars.forEach((bar, index) => {
   bar.addEventListener('click', () => {
     if (index === 0) {
@@ -62,18 +58,14 @@ bars.forEach((bar, index) => {
   });
 });
 
-
 window.addEventListener('load', () => {
   radio.load(); 
 });
-
-
 
 document.addEventListener('contextmenu', function(e) {
   e.preventDefault();
   alert("Oops! You can't right-click.🚫 If you need anything, just ask ROB.😎");
 });
-
 
 document.addEventListener('keydown', function(e) {
   if (e.key === "F12" || 
@@ -84,8 +76,6 @@ document.addEventListener('keydown', function(e) {
   }
 });
 
-
-	
 document.getElementById("BG007").onclick = () => {
     window.open("https://www.deviantart.com/robf-art/gallery/71228449", "_blank");
 };
