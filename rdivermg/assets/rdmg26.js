@@ -1,4 +1,4 @@
-onst radio = document.getElementById('radio');
+const radio = document.getElementById('radio');
 const playPauseBtn = document.getElementById('playPauseBtn');
 const playIcon = document.getElementById('playIcon');
 const pauseIcon = document.getElementById('pauseIcon');
